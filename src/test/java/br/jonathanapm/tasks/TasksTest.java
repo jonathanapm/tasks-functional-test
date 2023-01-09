@@ -5,6 +5,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -102,6 +103,10 @@ public class TasksTest {
         WebDriver driver = new ChromeDriver();
         driver.navigate().to(url.concat("tasks/"));
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         return driver;
     }
 }
