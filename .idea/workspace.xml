@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b0778e8-1b9b-4ea4-8b37-a741ad15ec58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/jonathanapm/tasks/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/jonathanapm/tasks/TasksTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2K6OHiPX6X1R46HfSacowPiW8PB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.TasksTest">
+    <configuration name="TasksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.jonathanapm.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.jonathanapm.tasks" />
+      <option name="MAIN_CLASS_NAME" value="br.jonathanapm.tasks.TasksTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.shouldNotSaveTaskWithSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.jonathanapm.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.jonathanapm.tasks" />
+      <option name="MAIN_CLASS_NAME" value="br.jonathanapm.tasks.TasksTest" />
+      <option name="METHOD_NAME" value="shouldNotSaveTaskWithSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.shouldNotSaveTaskWithoutDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.jonathanapm.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.jonathanapm.tasks" />
+      <option name="MAIN_CLASS_NAME" value="br.jonathanapm.tasks.TasksTest" />
+      <option name="METHOD_NAME" value="shouldNotSaveTaskWithoutDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.shouldNotSaveTaskWithoutDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.jonathanapm.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.jonathanapm.tasks" />
+      <option name="MAIN_CLASS_NAME" value="br.jonathanapm.tasks.TasksTest" />
+      <option name="METHOD_NAME" value="shouldNotSaveTaskWithoutDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TasksTest.shouldTaskWithSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.jonathanapm.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.jonathanapm.tasks" />
+      <option name="MAIN_CLASS_NAME" value="br.jonathanapm.tasks.TasksTest" />
+      <option name="METHOD_NAME" value="shouldTaskWithSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TasksTest" />
+        <item itemvalue="JUnit.TasksTest.shouldNotSaveTaskWithoutDate" />
+        <item itemvalue="JUnit.TasksTest.shouldNotSaveTaskWithoutDescription" />
+        <item itemvalue="JUnit.TasksTest.shouldNotSaveTaskWithSuccess" />
+        <item itemvalue="JUnit.TasksTest.shouldTaskWithSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b0778e8-1b9b-4ea4-8b37-a741ad15ec58" name="Changes" comment="" />
+      <created>1673291481870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673291481870</updated>
+    </task>
+    <servers />
+  </component>
+</project>
