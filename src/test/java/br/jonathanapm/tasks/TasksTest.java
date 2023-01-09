@@ -101,7 +101,6 @@ public class TasksTest {
 
     private WebDriver getApplication() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
         WebDriver driver = new ChromeDriver(options);
