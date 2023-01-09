@@ -100,13 +100,13 @@ public class TasksTest {
     }
 
     private WebDriver getApplication() {
-        WebDriver driver = new ChromeDriver();
-        driver.navigate().to(url.concat("tasks/"));
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
+
+        WebDriver driver = new ChromeDriver(options);
+        driver.navigate().to(url.concat("tasks/"));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
 }
