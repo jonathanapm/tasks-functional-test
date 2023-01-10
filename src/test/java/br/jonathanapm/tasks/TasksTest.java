@@ -101,7 +101,10 @@ public class TasksTest {
 
     private WebDriver getApplication() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless"); //!!!should be enabled for Jenkins
+        options.addArguments("--disable-dev-shm-usage"); //!!!should be enabled for Jenkins
+        options.addArguments("--window-size=1920x1080"); //!!!should be enabled for Jenkins
 
         WebDriver driver = new ChromeDriver(options);
         driver.navigate().to(url.concat("tasks/"));
